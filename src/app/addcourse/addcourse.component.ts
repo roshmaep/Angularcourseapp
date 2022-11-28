@@ -11,12 +11,13 @@ export class AddcourseComponent {
   courseTitle=""
   courseDescription=""
   courseDuration=""
+  distributor=""
   courseDate=""
   courseVenue=""
 
   readValues=()=>
   {
-  let data:any={"courseTitle":this.courseTitle,"courseDescription":this.courseDescription,"courseDuration":this.courseDuration,"courseDate":this.courseDate,"courseVenue":this.courseVenue}
+  let data:any={"courseTitle":this.courseTitle,"courseDescription":this.courseDescription,"distributor":this.distributor,"courseDuration":this.courseDuration,"courseDate":this.courseDate,"courseVenue":this.courseVenue}
   console.log(data)
   }
 
